@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Solar AR</title>
+  </head>
+  <body>
+    <h1>Hello AR! 🌍</h1>
+    <p id="status">Checking...</p>
+    <script>
+      document.getElementById("status").innerText =
+        navigator.xr ? "WebXR available ✅" : "WebXR NOT available ❌";
+    </script>
+  </body>
+</html>
